@@ -20,4 +20,3 @@ if __name__ == '__main__':
 	delta = end - start
 
 	print str(result) + ', ' + str(int((delta.total_seconds() * 1000000) + delta.microseconds))
-
